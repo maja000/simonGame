@@ -1,0 +1,95 @@
+body {
+  background-color:black;
+  background-image:url(http://cdni.condenast.co.uk/639x426/a_c/8SleepUnderStars_el_11dec12_alamy_b_639x426.jpg);
+  background-position:center center;
+  background-size:70%;
+  background-position:50%;
+  background-repeat:no-repeat;
+}
+
+#game {
+  width:300px;
+  margin:10% auto;
+  position:relative;
+}
+
+[id="1"], [id="2"], [id="4"], [id="3"] {
+  position:relative;
+  display:inline-block;
+  width:140px;
+  height:140px;
+  border:2px solid black;
+  box-shadow:10px 10px 5px black;
+}
+
+[id="1"] {
+  border-radius:0px 0px 80px 0px;
+  background-color:#000066;
+}
+
+[id="2"] {
+  border-radius:0px 0px 0px 80px;
+  background-color:#00004d;
+}
+
+[id="3"] {
+  border-radius:0px 80px 0px 0px;
+  background-color:#000033;
+}
+
+[id="4"] {
+  border-radius:80px 0px 0px 0px;
+  background-color:#00001a;
+}
+
+#buttons {
+  padding:30px 0px;
+}
+
+#steps {
+  text-align:center;
+  height:15%;
+  width:20%;
+  border-radius:40px;
+  position:absolute;
+  top:37%;
+  left:38%;
+  z-index:5;
+  background-color:#000000;
+  color:#ffffff;
+  border:2px solid blue;
+  font-size:20px;
+  font-weight:bold;
+  line-height:44px;
+  text-align:center;
+}
+
+button {
+  width:30%;
+  padding:5px 0px;
+  background-color:#000000;
+  color:#ffffff;
+  font-weight:bold;
+  cursor:pointer;
+  border:2px solid blue;
+}
+
+button:hover {
+  background-color:#ABABAB;
+}
+
+h1 {
+  color:#003366;
+  text-align:center;
+  font-family:‘Courier New’, Courier, monospace;
+  font-weight:bold;
+}
+
+h4 {
+  margin-top:0%;
+  color:#003366;
+  text-align:center;
+  font-family:‘Courier New’, Courier, monospace;
+  font-weight:bold;
+}
+
